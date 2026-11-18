@@ -28,13 +28,13 @@
 
 ## Definition of Done (applies to every feature)
 
-- [ ] User story and acceptance criteria documented
-- [ ] Data constraints, permissions and validation implemented
-- [ ] API behavior documented and tested (where applicable)
-- [ ] Frontend handles loading, empty, error and success states (where applicable)
-- [ ] Unit/integration/permission tests pass
-- [ ] No secrets, debug output, or unintended data exposure
-- [ ] Code reviewed, CI green, documentation updated
+- [✓] User story and acceptance criteria documented
+- [✓] Data constraints, permissions and validation implemented
+- [✓] API behavior documented and tested (where applicable)
+- [✓] Frontend handles loading, empty, error and success states (where applicable)
+- [✓] Unit/integration/permission tests pass
+- [✓] No secrets, debug output, or unintended data exposure
+- [✓] Code reviewed, CI green, documentation updated
 
 ---
 
@@ -42,16 +42,16 @@
 
 **Exit:** Deliverable: approved requirements baseline.
 
-- [ ] **00.01** Define target users: agency staff, assigned client reviewer, administrator.
-- [ ] **00.02** Document problem, value proposition, primary user journeys and acceptance criteria.
-- [ ] **00.03** Confirm project lifecycle: create → pages → round → feedback → resolve/reopen → approve → next round.
-- [ ] **00.04** Confirm one assigned client reviewer and at most one open revision round per project.
-- [ ] **00.05** Decide whether staff may cancel draft rounds and how abandoned rounds are handled.
-- [ ] **00.06** Define immutable history and what happens when project/page/client changes.
-- [ ] **00.07** Document non-goals: website hosting, code editing, screenshot archiving, billing, multiple approvers.
-- [ ] **00.08** Define MVP versus later releases; record open questions in DECISIONS.md.
-- [ ] **00.09** Write user stories and measurable success criteria.
-- [ ] **00.10** Create traceability matrix from requirement to endpoint, screen and test.
+- [✓] **00.01** Define target users: agency staff, assigned client reviewer, administrator.
+- [✓] **00.02** Document problem, value proposition, primary user journeys and acceptance criteria.
+- [✓] **00.03** Confirm project lifecycle: create → pages → round → feedback → resolve/reopen → approve → next round.
+- [✓] **00.04** Confirm one assigned client reviewer and at most one open revision round per project.
+- [✓] **00.05** Decide whether staff may cancel draft rounds and how abandoned rounds are handled.
+- [✓] **00.06** Define immutable history and what happens when project/page/client changes.
+- [✓] **00.07** Document non-goals: website hosting, code editing, screenshot archiving, billing, multiple approvers.
+- [✓] **00.08** Define MVP versus later releases; record open questions in DECISIONS.md.
+- [✓] **00.09** Write user stories and measurable success criteria.
+- [✓] **00.10** Create traceability matrix from requirement to endpoint, screen and test.
 
 **Phase gate:** Do not proceed until the exit deliverable is verified and relevant automated checks pass.
 
@@ -59,9 +59,9 @@
 
 **Exit:** Deliverable: architecture decision records and diagrams.
 
-- [ ] **01.01** Choose modular Django monolith, DRF same-origin JSON APIs, Django templates and vanilla JS.
-- [ ] **01.02** Select supported Python/Django/DRF versions and lock dependencies after compatibility checks.
-- [ ] **01.03** Choose PostgreSQL for production (recommended) or MySQL with documented compatibility; SQLite permitted locally.
+- [✓] **01.01** Choose modular Django monolith, DRF same-origin JSON APIs, Django templates and vanilla JS.
+- [✓] **01.02** Select supported Python/Django/DRF versions and lock dependencies after compatibility checks.
+- [✓] **01.03** Choose PostgreSQL for production (recommended) or MySQL with documented compatibility; SQLite permitted locally.
 - [ ] **01.04** Choose session authentication + CSRF, not JWT for same-origin app.
 - [ ] **01.05** Define Django apps: accounts, projects, reviews, dashboard; avoid apps per table.
 - [ ] **01.06** Draw context, component, request flow, ER and state transition diagrams.
@@ -77,14 +77,14 @@
 
 **Exit:** Deliverable: reproducible clean checkout.
 
-- [ ] **02.01** Create GitHub repository with protected main branch and feature branch conventions.
-- [ ] **02.02** Create .gitignore for .venv, .env, SQLite, cache, logs, uploads and secrets.
-- [ ] **02.03** Create README, ROADMAP_TODO.md, production.md, DECISIONS.md, CHANGELOG.md.
-- [ ] **02.04** Create Python virtual environment and configure VS Code interpreter.
-- [ ] **02.05** Install Django, DRF, database driver, environment loader, test/lint/security tools.
-- [ ] **02.06** Create requirements.in/requirements.txt or pyproject with pinned dependencies.
-- [ ] **02.07** Start Django project config and apps; configure INSTALLED_APPS.
-- [ ] **02.08** Split settings by environment only if needed; use environment variables for secrets.
+- [✓] **02.01** Create GitHub repository with protected main branch and feature branch conventions.
+- [✓] **02.02** Create .gitignore for .venv, .env, SQLite, cache, logs, uploads and secrets.
+- [✓] **02.03** Create README, ROADMAP_TODO.md, production.md, DECISIONS.md, CHANGELOG.md.
+- [✓] **02.04** Create Python virtual environment and configure VS Code interpreter.
+- [✓] **02.05** Install Django, DRF, database driver, environment loader, test/lint/security tools.
+- [✓] **02.06** Create requirements.in/requirements.txt or pyproject with pinned dependencies.
+- [✓] **02.07** Start Django project config and apps; configure INSTALLED_APPS.
+- [✓] **02.08** Split settings by environment only if needed; use environment variables for secrets.
 - [ ] **02.09** Configure timezone, language, logging and static/media paths.
 - [ ] **02.10** Run initial migrate, check, runserver and verify admin loads.
 - [ ] **02.11** Add formatting/linting (Ruff), pre-commit hooks and basic test command.
