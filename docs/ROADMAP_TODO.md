@@ -85,9 +85,9 @@
 - [✓] **02.06** Create requirements.in/requirements.txt or pyproject with pinned dependencies.
 - [✓] **02.07** Start Django project config and apps; configure INSTALLED_APPS.
 - [✓] **02.08** Split settings by environment only if needed; use environment variables for secrets.
-- [ ] **02.09** Configure timezone, language, logging and static/media paths.
-- [ ] **02.10** Run initial migrate, check, runserver and verify admin loads.
-- [ ] **02.11** Add formatting/linting (Ruff), pre-commit hooks and basic test command.
+- [✓] **02.09** Configure timezone, language, logging and static/media paths.
+- [✓] **02.10** Run initial migrate, check, runserver and verify admin loads.
+- [✓] **02.11** Add formatting/linting (Ruff), pre-commit hooks and basic test command.
 - [ ] **02.12** Set up GitHub Actions to run lint, checks and tests on push/PR.
 - [ ] **02.13** Verify a second clean environment can install and start the app.
 
